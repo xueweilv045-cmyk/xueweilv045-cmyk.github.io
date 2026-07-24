@@ -2,43 +2,65 @@ repository: xueweilv045-cmyk/xueweilv045-cmyk.github.io
 version: 2
 name: 吕雪薇
 title: 正在学 AI 开发的信管学生
-email: 3495821294@qq.com
+email: 2025362021@mails.szu.edu.cn
+email_title: 学校邮箱
 darkmode: false
 github_username: xueweilv045-cmyk
-about_content: '我是吕雪薇，深圳大学信息管理与信息系统专业大一学生，正在学习 AI 开发。
+about_title: 关于我
+about_content: '我是吕雪薇，深圳大学信息管理与信息系统专业 2025 级本科生，第一学期 GPA 4.18/4.5（平均分 92）。
 
 
-  目前掌握 C++ 编程基础，正在拓展 AI 方向的知识与技能。
+  正在学习 AI 开发与数据分析，掌握 C 语言和 Python 基础编程，具备全英文课程学习背景与金融分析思维。
 
 
-  这个网站记录我的学习历程与项目实践。'
+  广发证券实习经历、国创赛项目进行中，2026 安永校园大使。'
 content:
 - title: Skills
   layout: text
   content: '**编程语言**
 
-    - C++ — 掌握基础语法与面向对象编程
+    - C — 掌握基础语法与程序设计
+
+    - Python — 能够进行数据处理与分析
 
 
-    **学习方向**
+    **办公与数据分析**
 
-    - AI 开发 — 正在 OPC-AI 培训营学习规范化 AI 开发流程
+    - Excel — 熟练运用数据处理
 
-    - 信息管理 — 专业课程打下的数据分析与系统思维基础'
+    - PowerPoint — 演示文稿制作
+
+
+    **专业能力**
+
+    - 全英文课程学习背景，英文读写及专业内容理解能力良好
+
+    - 财报解读、股票价值分析，拥有基础金融分析思维'
 - title: Projects
   layout: list
   content:
   - layout: left
     border: weak
-    title: 个人网站
-    link: https://xueweilv045-cmyk.github.io
-    link_text: 访问网站
-    additional_links:
-    - title: GitHub 仓库
-      icon: fab fa-github
-      url: https://github.com/xueweilv045-cmyk/xueweilv045-cmyk.github.io
-    quote: 用规范化 AI 开发流程完成的个人简历网站
-    description: 基于 Modern Resume Theme 模版，通过 AI 协作完成需求定义、设计与开发，发布在 GitHub Pages 上。
+    title: 国家级大学生创新创业训练计划
+    quote: 商业组成员 / 美工组成员 — 已过校赛
+    description: 参与国创赛项目，负责商业方案设计与美工制作，项目立项推进中。
+  - layout: left
+    border: weak
+    title: 深圳大学生香港参访活动
+    quote: 深港融 · 智创未来
+    description: 进入中国工商银行（亚洲）有限公司、中信建投（国际）证券有限公司参访学习，了解银行业务架构与证券投资实务。
+  - layout: left
+    border: weak
+    title: 阿里巴巴企业参访
+    description: 了解阿里巴巴企业业务架构与运营模式。
+- title: Experience
+  layout: list
+  content:
+  - layout: right
+    title: 广发证券股份有限公司
+    sub_title: 实习生
+    caption: 2026.1 - 2026.2
+    description: 在广州海珠广场星寰国际证券营业部实习，了解证券业务运作流程与金融实务。
 - title: Education
   layout: list
   content:
@@ -47,7 +69,22 @@ content:
     sub_title: 信息管理与信息系统 本科
     caption: 2025 - 至今
     quote: 电子与信息工程学院
-    description: 正在学习信息管理、数据分析与 AI 开发相关课程。
+    description: '主修课程：管理学、微观经济学、财务会计、C语言程序设计、面向对象程序设计、高等数学、线性代数、商务英语、雅思英语
+
+
+      第一学期 GPA：4.18/4.5（平均分 92）'
+- title: Activities
+  layout: list
+  content:
+  - layout: left
+    border: weak
+    title: 2026 安永校园大使
+    description: 作为安永校园大使，参与企业校园品牌推广与活动组织。
+  - layout: left
+    border: weak
+    title: 深圳大学青年志愿者联合会
+    sub_title: 人力资源部干事
+    description: 负责公众号推文撰写、宣传海报设计、原创文案创作及 PPT 制作等宣传工作；参与校园志愿活动策划与落地执行，具备活动统筹与文案策划能力。
 footer_show_references: false
 sass:
   sass_dir: _sass
@@ -65,4 +102,3 @@ exclude:
 - lib/
 - scripts/
 - docker-compose.yml
-about_title: 关于我
