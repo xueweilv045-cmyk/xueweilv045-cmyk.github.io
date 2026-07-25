@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500,500italic,400italic,300italic,100italic,700italic);
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
 @import url(https://use.fontawesome.com/releases/v5.11.2/css/all.css);
@@ -5,7 +6,7 @@
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
-  background-color: #477dca;
+  background-color: #be185d;
   border: 0;
   border-radius: 3px;
   color: #fff;
@@ -27,13 +28,13 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   input[type="button"]:focus, input[type="reset"]:hover,
   input[type="reset"]:focus, input[type="submit"]:hover,
   input[type="submit"]:focus {
-    background-color: #3964a2;
+    background-color: #db2777;
     color: #fff; }
   button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled {
     cursor: not-allowed;
     opacity: 0.5; }
     button:disabled:hover, input[type="button"]:disabled:hover, input[type="reset"]:disabled:hover, input[type="submit"]:disabled:hover {
-      background-color: #477dca; }
+      background-color: #be185d; }
 
 fieldset {
   background-color: #f7f7f7;

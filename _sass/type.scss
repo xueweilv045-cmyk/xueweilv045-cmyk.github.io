@@ -26,24 +26,29 @@ p {
   margin: 0 0 0.75rem; }
 
 a {
-  color: #477dca;
+  color: #be185d;
   transition: color 150ms ease;
 }
 a:active,
 a:focus,
 a:hover {
-color: #355e98;
+color: #db2777;
 }
 
 h1 {
-  font-size: 4rem;
-  margin-bottom: 0.1rem;
-  font-weight: 500;
+  font-size: 4.5rem;
+  margin-bottom: 0.2rem;
+  font-weight: 700;
+  font-family: "DM Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
 }
 
 h2 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 2rem;
+  font-family: "DM Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  color: #52525b;
 }
 
 h3 {
